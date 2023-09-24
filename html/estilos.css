@@ -1,0 +1,22 @@
+.imagencv {
+    border-radius: 50%;
+    float: right;
+    margin: 0cm;
+  }
+body {background-color: cornflowerblue;
+        margin-top: 0%;}
+
+h1 {color: #120363;; font-size: 75px;background-color: cornflowerblue;}
+
+header{ background-color: dodgerblue;}
+
+div {
+    border: rgb(3, 75, 156) 3px solid;
+  }
+nav {background-color: darkcyan;}
+
+footer{background-color: slateblue;}
+
+p {text-align: justify;color: #05063a;}
+
+#cv{ display: none;}

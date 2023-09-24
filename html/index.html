@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Curriculum Vitae</title>  
+    <link rel="icon"  href="assets/9.ico"> 
+    <link rel="stylesheet" href="estilos.css">       
+</head>    
+<body>
+    <script>src="Java/javascript.js"</script>
+    <img class="imagencv" src="assets/9.jpg" alt="Mi imagen de currículum" height="200px" width="200px"/>
+    <h1>Willie Bailey</h1>
+    <div></div> 
+    </br>
+    <header>
+        <h2>Datos Personales</h2>
+        <p><strong>Fecha de Nacimiento:</strong><span>5/2/1950</span><p id="demo"></p>
+        <p><strong>Dirección:</strong><span>8182 Central St</span></p>
+        <p><strong>Teléfono:</strong><span>(507) 866-0038</span></p>
+        <p><strong>Email:</strong><span>willie.bailey@example.com</span></p>  
+        <p>Profesional responsable y eficiente en busca de un puesto como dependienta. Mi objetivo es obtener experiencia en el área de atención al cliente y poder ofrecer una experiencia de compra personalizada y de gran calidad a sus clientes. Cuento con habilidades de cara a la comunicación, al trabajo en equipo y al aprendizaje rápido.</p>
+        <button type="button" onclick="mostrarCv();">Haz click si te interesa ver mi curriculum</button>
+        <button type="button" onclick="ocultarCv();">OcultarCV</button>
+    </header>
+    <div id="cv">
+        
+    <div></div> 
+        </br>
+    <nav>
+        
+        
+        <h2>Experiencia</h3>
+            <section><strong>10/2018 – Presente Analista – Programador, Servicios Técnicos IT, Bilbao</strong></section>
+                <p> Toma de requerimientos con el cliente
+                Análisis de requerimientos y diseño de aplicaciones
+                Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL
+                Soporte técnico a clientes </p>
+            <section><strong>12/2014 - 10/2018 Programador Full Stack, Finanbest, Madrid</strong></section>
+                <p> Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5
+                    Realización de test de aplicaciones
+                    Solución de incidencias </p>
+            <section><strong>07/2011 - 12/2014 Programadora web, Sistemas Informáticos SL, Madrid</strong></section>
+                <p> Desarrollo de aplicaciones web para clientes de la empresa del sector financiero utilizando Javascript, PHP
+                    Mantenimiento de aplicaciones web
+                    Maquetación HTML5, CSS3, Bootstrap
+                    Manejo de datos XML, JSON </p>
+        <div></div>
+            </br>
+        <h2>Formación</h2>
+            <section><strong>Máster en Ingeniería Informática / ene.2015 - jun.2017</strong></section>
+                <p>Escuela de Ingeniría de Informática, Universidad de Buenos Aires, Buenos aires</p>
+            <section><strong>Licenciatura en Ingeniería Informática / sept.2011 - jun.2014</strong></section>
+                <p>Escuela de Ingeniría de Informática, Universidad de Buenos Aires, Buenos aires</p>
+        <h2>Habilidades</h4>
+            <p> - Javacript <br />
+                - PHP<br />
+                - MySQL<br />
+                - HTML5<br />
+                - Typescript<br />
+                - Angular<br />
+                - Bootstrap</p>    
+                    
+            </nav>
+    </div>
+    <script type="text/javascript">
+    function mostrarCv(){
+        document.getElementById('cv').style.display = 'block';} 
+    function ocultarCv(){
+        document.getElementById('cv').style.display = 'none';}     
+    </script>
+
+    <footer>
+       <p>Muchas Gracias!!</p>
+
+    </footer>
+</body>
+</html>
